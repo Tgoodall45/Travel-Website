@@ -63,27 +63,32 @@ textarea {
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    </header>
-        <section id="destinations">
+    </header>  
+    
+<section id="destinations">
         <h2>Destinations</h2>
         <!-• Add destination information here -->
     </section>
     <section id="travel-guides">
         <h2>Travel Guides</h2>
         <!-• Add travel guides here -->
-    </section>
+  
+</section>
     <section id="travel-blog">
         <h2>Travel Blog</h2>
         <!-• Add blog posts here -->
-    </section> 
+   
+</section> 
     <section id="travel-packages">
         <h2>Travel Packages</h2>
         <!-• Add travel packages here -->
-    </section> 
+   
+</section> 
     <section id="reviews">
         <h2>Reviews</h2>
         <!-• Add customer reviews here -->
-    </section>
+    
+</section>
     <footer id="contact">
         <h2>Contact Us</h2>
         <!-• Add contact information and form here -->
