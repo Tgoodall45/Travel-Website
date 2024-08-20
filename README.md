@@ -4,19 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel and Tourism Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <style>
-        /* Reset some default browser styles */
-        body, h1, h2, ul, li, p {
+        body {
+            font-family: 'Vollkorn', serif;
             margin: 0;
             padding: 0;
-            list-style-type: none;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f4f4f9;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
             color: #333;
+            overflow-x: hidden;
         }
 
         header {
@@ -24,12 +21,15 @@
             color: white;
             padding: 20px 0;
             text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
         }
 
         nav ul {
             display: flex;
             justify-content: center;
-            background-color: #3b5998;
         }
 
         nav ul li {
@@ -40,28 +40,29 @@
             color: white;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s;
         }
 
         nav ul li a:hover {
-            text-decoration: underline;
+            color: #ff7e5f;
         }
 
         section {
-            padding: 20px;
-            margin: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            height: 100vh;
+            padding: 80px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
         }
 
-        footer {
-            background-color: #3b5998;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+        section:nth-child(odd) {
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        section:nth-child(even) {
+            background: rgba(255, 255, 255, 0.9);
         }
 
         h1, h2 {
@@ -75,12 +76,24 @@
         h2 {
             font-size: 2em;
         }
+
+        .content {
+            max-width: 600px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #3b5998;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Welcome to our Travel and Tourism Website</h1>
-        <!-• Navigation links -->
         <nav>
             <ul>
                 <li><a href="#destinations">Destinations</a></li>
@@ -95,97 +108,21 @@
    
     <section id="destinations">
         <h2>Destinations</h2>
-        <!-• Add destination information here -->
+        <div class="content">
+            <!-• Add destination information and pictures here -->
+            <p>Explore the world's most beautiful destinations. Discover unique cultures, breathtaking landscapes, and unforgettable experiences.</p>
+            <img src="destination.jpg" alt="Beautiful Destination" style="max-width: 100%; height: auto;">
+        </div>
     </section>
    
     <section id="travel-guides">
         <h2>Travel Guides</h2>
-        <!-• Add travel guides here -->
+        <div class="content">
+            <!-• Add travel guides and pictures here -->
+            <p>Find comprehensive travel guides for your next adventure. Plan your trip with helpful tips and insights.</p>
+            <img src="guide.jpg" alt="Travel Guide" style="max-width: 100%; height: auto;">
+        </div>
     </section>
    
     <section id="travel-blog">
-        <h2>Travel Blog</h2>
-        <!-• Add blog posts here -->
-    </section>
-   
-    <section id="travel-packages">
-        <h2>Travel Packages</h2>
-        <!-• Add travel packages here -->
-    </section>
-   
-    <section id="reviews">
-        <h2>Reviews</h2>
-        <!-• Add customer reviews here -->
-    </section>
-   
-    <footer id="contact">
-        <h2>Contact Us</h2>
-        <!-• Add contact information and form here -->
-    </footer>
-</body>
-</html>
-
-
-Sent from Outlook for Android
-From: tyler goodall <tyler1711@live.co.uk>
-Sent: Friday, August 9, 2024 9:59:39 AM
-To: tyler goodall <tyler1711@live.co.uk>
-Subject: Website
- 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel and Tourism Website</title>
-    <style>
-        /* Add your CSS styling here */
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to our Travel and Tourism Website</h1>
-        <!-• Navigation links -->
-        <nav>
-            <ul>
-                <li><a href="#destinations">Destinations</a></li>
-                <li><a href="#travel-guides">Travel Guides</a></li>
-                <li><a href="#travel-blog">Travel Blog</a></li>
-                <li><a href="#travel-packages">Travel Packages</a></li>
-                <li><a href="#reviews">Reviews</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-   
-    <section id="destinations">
-        <h2>Destinations</h2>
-        <!-• Add destination information here -->
-    </section>
-   
-    <section id="travel-guides">
-        <h2>Travel Guides</h2>
-        <!-• Add travel guides here -->
-    </section>
-   
-    <section id="travel-blog">
-        <h2>Travel Blog</h2>
-        <!-• Add blog posts here -->
-    </section>
-   
-    <section id="travel-packages">
-        <h2>Travel Packages</h2>
-        <!-• Add travel packages here -->
-    </section>
-   
-    <section id="reviews">
-        <h2>Reviews</h2>
-        <!-• Add customer reviews here -->
-    </section>
-   
-    <footer id="contact">
-        <h2>Contact Us</h2>
-        <!-• Add contact information and form here -->
-    </footer>
-</body>
-</html>
+        <h2>Travel Blog</h
