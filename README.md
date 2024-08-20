@@ -13,24 +13,20 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
 }
-
 /* Container for content */
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
-
 /* Headings */
 h1, h2, h3 {
     color: #333;
 }
-
 /* Paragraphs */
 p {
     color: #555;
 }
-
 /* Buttons */
 button {
     background-color: #28a745; /* Green */
@@ -41,21 +37,17 @@ button {
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
-
 button:hover {
     background-color: #218838; /* Darker green */
 }
-
 /* Links */
 a {
     color: #007bff; /* Blue */
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
 /* Form styles */
 input[type="text"],
 input[type="email"],
@@ -66,13 +58,12 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 /* Responsive design */
 @media (max-width: 600px) {
     .container {
         width: 95%;
     }
-}
+    
     <header>
         <h1>Welcome to our Travel and Tourism Website</h1>
         <!-• Navigation links -->
