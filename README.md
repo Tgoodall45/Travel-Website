@@ -63,7 +63,7 @@ textarea {
     .container {
         width: 95%;
     }
-    
+}
     <header>
         <h1>Welcome to our Travel and Tourism Website</h1>
         <!-• Navigation links -->
