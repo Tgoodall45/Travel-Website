@@ -24,11 +24,9 @@ h1, h2, h3 {
     color: #333;
 }
 /* Paragraphs */
-p {
     color: #555;
 }
 /* Buttons */
-button {
     background-color: #28a745; /* Green */
     color: white;
     border: none;
@@ -36,7 +34,6 @@ button {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-}
 button:hover {
     background-color: #218838; /* Darker green */
 }
@@ -44,10 +41,8 @@ button:hover {
 a {
     color: #007bff; /* Blue */
     text-decoration: none;
-}
 a:hover {
     text-decoration: underline;
-}
 /* Form styles */
 input[type="text"],
 input[type="email"],
@@ -57,13 +52,10 @@ textarea {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
 /* Responsive design */
 @media (max-width: 600px) {
     .container {
         width: 95%;
-    }
-}
     <header>
         <h1>Welcome to our Travel and Tourism Website</h1>
         <!-• Navigation links -->
@@ -78,32 +70,32 @@ textarea {
             </ul>
         </nav>
     </header>
-   
-    <section id="destinations">
+  }
+        <section id="destinations">
         <h2>Destinations</h2>
         <!-• Add destination information here -->
     </section>
-   
+}
     <section id="travel-guides">
         <h2>Travel Guides</h2>
         <!-• Add travel guides here -->
     </section>
-   
+}   
     <section id="travel-blog">
         <h2>Travel Blog</h2>
         <!-• Add blog posts here -->
     </section>
-   
+ }  
     <section id="travel-packages">
         <h2>Travel Packages</h2>
         <!-• Add travel packages here -->
     </section>
-   
+}   
     <section id="reviews">
         <h2>Reviews</h2>
         <!-• Add customer reviews here -->
     </section>
-   
+}   
     <footer id="contact">
         <h2>Contact Us</h2>
         <!-• Add contact information and form here -->
