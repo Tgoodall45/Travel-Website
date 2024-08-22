@@ -14,7 +14,6 @@
             background: linear-gradient(to right, #ff7e5f, #feb47b);
             color: #333;
             overflow-x: hidden;
-        }
 
         header {
             background-color: #3b5998;
@@ -170,5 +169,3 @@
             <br>
             <input type="submit" value="Send Message">
         </form>
-    </div>
-    </section>
