@@ -10,7 +10,7 @@
             font-family: 'Vollkorn', serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
+            line-height: 1.0;
             background: linear-gradient(to right, #ff7e5f, #feb47b);
             color: #333;
             overflow-x: hidden;
@@ -127,7 +127,7 @@
     <section id="travel-blog">
     <h2>Travel Blog</h2>
     <div class="content">
-        <p>Read our latest travel stories and tips to inspire your next journey. Join our community of travelers.</p>
+        <p>Read our latest travel stories and tips to inspire your next journey. Join our community of travellers.</p>
         <img src="blog.jpg" alt="Travel Blog" style="max-width: 100%; height: auto;">
     </div>
     </section>
