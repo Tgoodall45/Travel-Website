@@ -106,23 +106,68 @@
         </nav>
     </header>
    
-    <section id="destinations">
-        <h2>Destinations</h2>
-        <div class="content">
-            <!-• Add destination information and pictures here -->
-            <p>Explore the world's most beautiful destinations. Discover unique cultures, breathtaking landscapes, and unforgettable experiences.</p>
-            <img src="destination.jpg" alt="Beautiful Destination" style="max-width: 100%; height: auto;">
-        </div>
-    </section>
-   
-    <section id="travel-guides">
-        <h2>Travel Guides</h2>
-        <div class="content">
-            <!-• Add travel guides and pictures here -->
-            <p>Find comprehensive travel guides for your next adventure. Plan your trip with helpful tips and insights.</p>
-            <img src="guide.jpg" alt="Travel Guide" style="max-width: 100%; height: auto;">
-        </div>
-    </section>
-   
-    <section id="travel-blog">
-        <h2>Travel Blog</h
+   <section id="destinations">
+    <h2>Destinations</h2>
+    <div class="content">
+        <!-• Add destination information and pictures here -->
+        <p>Explore the world's most beautiful destinations. Discover unique cultures, breathtaking landscapes, and unforgettable experiences.</p>
+        <img src="destination.jpg" alt="Beautiful Destination" style="max-width: 100%; height: auto;">
+    </div>
+</section>
+
+<section id="travel-guides">
+    <h2>Travel Guides</h2>
+    <div class="content">
+        <!-• Add travel guides and pictures here -->
+        <p>Find comprehensive travel guides for your next adventure. Plan your trip with helpful tips and insights.</p>
+        <img src="guide.jpg" alt="Travel Guide" style="max-width: 100%; height: auto;">
+    </div>
+</section>
+
+<section id="travel-blog">
+    <h2>Travel Blog</h2>
+    <div class="content">
+        <p>Read our latest travel stories and tips to inspire your next journey. Join our community of travelers.</p>
+        <img src="blog.jpg" alt="Travel Blog" style="max-width: 100%; height: auto;">
+    </div>
+</section>
+
+<section id="travel-packages">
+    <h2>Travel Packages</h2>
+    <div class="content">
+        <p>Discover our exclusive travel packages tailored to your needs. Whether you're looking for a romantic getaway or a family vacation, we've got you covered!</p>
+        <ul>
+            <li>Beach Escapes</li>
+            <li>Adventure Trips</li>
+            <li>Cultural Tours</li>
+        </ul>
+    </div>
+</section>
+
+<section id="reviews">
+    <h2>Reviews</h2>
+    <div class="content">
+        <p>See what our customers are saying about their experiences with us. Your feedback is important!</p>
+        <blockquote>"An unforgettable journey! Highly recommend!" • Sarah J.</blockquote>
+        <blockquote>"Amazing service and beautiful destinations!" • Mike T.</blockquote>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="content">
+        <p>If you have any questions or need assistance, feel free to reach out to us!</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</section>
