@@ -16,7 +16,8 @@
             overflow-x: hidden;
 
         header {
-            background-color: #3b5998;
+            background-colour: #87CEED; 
+            /* Light Blue Colour */
             color: white;
             padding: 20px 0;
             text-align: center;
