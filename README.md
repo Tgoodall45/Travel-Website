@@ -21,9 +21,9 @@
             padding: 20px 0;
             text-align: center;
             position: fixed;
-            width: 50%;
+            width: 100%;
             top: 0;
-            z-index: 800;
+            z-index: 1000;
         }
 
         nav ul {
