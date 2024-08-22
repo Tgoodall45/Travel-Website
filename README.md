@@ -14,9 +14,10 @@
             background: linear-gradient(to right, #ff7e5f, #feb47b);
             color: #333;
             overflow-x: hidden;
-
+        }
+        
         header {
-            background-color: #3b5998;
+            background-color: #87CEEB; /* Light blue color */
             color: white;
             padding: 20px 0;
             text-align: center;
@@ -24,15 +25,21 @@
             width: 100%;
             top: 0;
             z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
         }
 
         nav ul {
             display: flex;
-            justify-content: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
         }
 
         nav ul li {
-            margin: 0 15px;
+            margin: 0 10px;
         }
 
         nav ul li a {
@@ -44,6 +51,11 @@
 
         nav ul li a:hover {
             color: #ff7e5f;
+        }
+
+        .header-title {
+            flex-grow: 1;
+            text-align: center;
         }
 
         section {
@@ -82,18 +94,16 @@
         }
 
         footer {
-            background-color: #3b5998;
+            background-color: #87CEEB;
             color: white;
             text-align: center;
             padding: 10px 0;
             width: 100%;
         }
     </style>
-
     </head>
     <body>
     <header>
-        <h1>Welcome to our Travel and Tourism Website</h1>
         <nav>
             <ul>
                 <li><a href="#destinations">Destinations</a></li>
@@ -104,30 +114,33 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <div class="header-title">
+            <h1>Welcome to our Travel and Tourism Website</h1>
+        </div>
     </header>
    
     <section id="destinations">
-    <h2>Destinations</h2>
-    <div class="content">
-        <!-• Add destination information and pictures here -->
-        <p>Explore the world's most beautiful destinations. Discover unique cultures, breathtaking landscapes, and unforgettable experiences.</p>
-        <img src="destination.jpg" alt="Beautiful Destination" style="max-width: 100%; height: auto;">
-    </div>
+        <h2>Destinations</h2>
+        <div class="content">
+            <!-- Add destination information and pictures here -->
+            <p>Explore the world's most beautiful destinations. Discover unique cultures, breathtaking landscapes, and unforgettable experiences.</p>
+            <img src="destination.jpg" alt="Beautiful Destination" style="max-width: 100%; height: auto;">
+        </div>
     </section>
 
     <section id="travel-guides">
-    <h2>Travel Guides</h2>
-    <div class="content">
-        <!-• Add travel guides and pictures here -->
-        <p>Find comprehensive travel guides for your next adventure. Plan your trip with helpful tips and insights.</p>
-        <img src="guide.jpg" alt="Travel Guide" style="max-width: 100%; height: auto;">
-    </div>
+        <h2>Travel Guides</h2>
+        <div class="content">
+            <!-- Add travel guides and pictures here -->
+            <p>Find comprehensive travel guides for your next adventure. Plan your trip with helpful tips and insights.</p>
+            <img src="guide.jpg" alt="Travel Guide" style="max-width: 100%; height: auto;">
+        </div>
     </section>
 
     <section id="travel-blog">
-    <h2>Travel Blog</h2>
-    <div class="content">
-        <p>Read our latest travel stories and tips to inspire your next journey. Join our community of travellers.</p>
+        <h2>Travel Blog</h2>
+        <div class="content">
+            <p>Read our latest travel stories and tips to inspire your next journey. Join our community of travellers.</p>
         <img src="blog.jpg" alt="Travel Blog" style="max-width: 100%; height: auto;">
     </div>
     </section>
