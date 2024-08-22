@@ -16,7 +16,7 @@
             overflow-x: hidden;
 
         header {
-            background-colour: #87CEED; 
+            background-color: #3b5998;
             color: white;
             padding: 20px 0;
             text-align: center;
